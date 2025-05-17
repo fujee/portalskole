@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --body-bg: "#F6F6F6";
+}
+
+:root:has(#tema_wrapper.dark) {
+  --body-bg: "#202125";
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  background-color: #f6f6f6;
+  background-image: url("./media/blur_bubbles.png");
+  background-position: center 300px;
+  background-size: cover auto;
+  background-repeat: repeat-y;
+}
+
+body:has(#tema_wrapper.dark) {
+  background-color: #202125;
+}
+
+/* 
+  p-2: 8px
+  p-4: 16px
+  p-8: 32px
+
+  text-base: 16px
+  text-lg: 18px
+  text-xl: 20px
+  text-2xl: 24px
+  text-3xl: 30px
+  text-4xl: 36px
+  text-5xl: 48px
+  text-6xl: 60px
+*/
