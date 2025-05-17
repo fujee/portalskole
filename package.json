@@ -1,7 +1,7 @@
 {
   "name": "pm-app",
   "version": "0.1.0",
-  "homepage": "https://fujee.github.io/portalmaster",
+  "homepage": "https://fujee.github.io/portalskole",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.0",
