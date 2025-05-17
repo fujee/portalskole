@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portalskole/static/css/main.40ef6b9e.css",
-    "main.js": "/portalskole/static/js/main.5a48dad9.js",
+    "main.js": "/portalskole/static/js/main.aed29aac.js",
     "static/js/453.5d2de9de.chunk.js": "/portalskole/static/js/453.5d2de9de.chunk.js",
     "static/media/dark_feature5.gif": "/portalskole/static/media/dark_feature5.6534d6c81a0ec4678fcd.gif",
     "static/media/feature5.gif": "/portalskole/static/media/feature5.bf7d3cca94249b3abb9c.gif",
@@ -23,12 +23,8 @@
     "static/media/fon.png": "/portalskole/static/media/fon.d1de42352dac31bd41b8.png",
     "static/media/fon_lat.png": "/portalskole/static/media/fon_lat.9d4200eabdab15655ba3.png",
     "static/media/feature_box_1.png": "/portalskole/static/media/feature_box_1.e50e2bd0538eed137ab3.png",
-    "static/media/analitika.svg": "/portalskole/static/media/analitika.be78f40f1bbad63e7d7aec8c9184f8a4.svg",
-    "static/media/analitika-dark.svg": "/portalskole/static/media/analitika-dark.62aeec4aef5e0da9c8b3150649288502.svg",
     "static/media/security.svg": "/portalskole/static/media/security.e8a94dde58f280c057d38f5329a14ce0.svg",
     "static/media/security-dark.svg": "/portalskole/static/media/security-dark.2a7daa88267678326a9c0ff400eb295b.svg",
-    "static/media/kvalitet-dark.svg": "/portalskole/static/media/kvalitet-dark.fdb2ab374cd33b012031033a7555f1af.svg",
-    "static/media/kvalitet.svg": "/portalskole/static/media/kvalitet.1e176339d46c9813a7a715546fe9bb21.svg",
     "static/media/primena-dark.svg": "/portalskole/static/media/primena-dark.ad380c1e043f056b8a78ccb1375f0e14.svg",
     "static/media/primena.svg": "/portalskole/static/media/primena.a1e241a69826f427a646c671dad49f20.svg",
     "static/media/iskustvo-dark.svg": "/portalskole/static/media/iskustvo-dark.99835c70aff72ddfe14fac3812cbbd3b.svg",
@@ -38,11 +34,11 @@
     "static/media/administracija-dark.svg": "/portalskole/static/media/administracija-dark.224db7f8d923536bb16e633fdce4a790.svg",
     "static/media/administracija.svg": "/portalskole/static/media/administracija.5073c511bea91d4ff1ab277a05e3292b.svg",
     "main.40ef6b9e.css.map": "/portalskole/static/css/main.40ef6b9e.css.map",
-    "main.5a48dad9.js.map": "/portalskole/static/js/main.5a48dad9.js.map",
+    "main.aed29aac.js.map": "/portalskole/static/js/main.aed29aac.js.map",
     "453.5d2de9de.chunk.js.map": "/portalskole/static/js/453.5d2de9de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40ef6b9e.css",
-    "static/js/main.5a48dad9.js"
+    "static/js/main.aed29aac.js"
   ]
 }
