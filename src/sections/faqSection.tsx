@@ -19,13 +19,13 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-lg lg:text-2xl font-semibold text-black dark:text-white">{t("Шта је Портал Мастер и како функционише?", "faq_q1")}</h6>
+                                <h6 className="text-lg lg:text-2xl font-semibold text-black dark:text-white">{t("Шта је Портал Школе и како функционише?", "faq_q1")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Портал Мастер је платформа која омогућава једноставну израду веб презентација и централизовано управљање независним, али сличним порталима. Наша платформа пружа јединствено решење које омогућава брзу израду персонализованих веб презентација, лако одржавање и ефикасно управљање. Било да су у питању јавне установе (на пример образовне институције) или компаније (на пример продајни објекти).', "faq_a1")}</p>
+                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Наша платформа пружа јединствено решење које омогућава брзу израду персонализованих веб презентација, лако одржавање и ефикасно управљање.', "faq_a1")}</p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
@@ -40,7 +40,7 @@ export default function FaqSection() {
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Не, Портал Мастер је осмишљен тако да омогући лако управљање садржајем без техничког предзнања. Платформа нуди интуитивни интерфејс и велики избор предефинисаних страница и компоненти, што је чини једноставном за употребу.', "faq_a2")}</p>
+                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Не, Портал Школе је осмишљен тако да омогући лако управљање садржајем без техничког предзнања. Платформа нуди интуитивни интерфејс и велики избор предефинисаних страница и компоненти, што је чини једноставном за употребу.', "faq_a2")}</p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
@@ -55,7 +55,7 @@ export default function FaqSection() {
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Да, Портал Мастер се може прилагодити вашим специфичним потребама. Наш тим блиско сарађује са клијентима како би осигурао да платформа у потпуности подржи њихове захтеве и пословне процесе на најбољи могући начин.', "faq_a3")}</p>
+                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Да, Портал Школе се може прилагодити вашим специфичним потребама. Наш тим блиско сарађује са клијентима како би осигурао да платформа у потпуности подржи њихове захтеве и пословне процесе на најбољи могући начин.', "faq_a3")}</p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
@@ -70,7 +70,7 @@ export default function FaqSection() {
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Да, Портал Мастер може да подржи интеграцију са постојећим системима који су од значаја за ваше пословање. ', "faq_a4")}</p>
+                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Да, Портал Школе може да подржи интеграцију са постојећим системима који су од значаја за ваше пословање. ', "faq_a4")}</p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>

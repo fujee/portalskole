@@ -9,7 +9,7 @@ export default function DemoSection() {
     <div id="demo" className="bg-transparent pt-24 pb-24">
       <div className="container mx-auto">
         <p className="text-primary font-semibold text-2xl relative after:content-[''] after:absolute after:block after:h-[4px] after:w-[100px] after:-bottom-4 after:left-0 after:bg-primary after:rounded-xl">
-          {t('Демо – Упознајте')} <em>Портал Мастер</em>
+          {t('Демо – Упознајте')} <em>Портал Школе</em>
         </p>
         <h2 className="mt-10 text-1xl font-bold text-black dark:text-white">
           {t('Погледајте како Портал Мастер може трансформисати рад организације из перспективе Министарства просвете, школе и крајњих корисника (ученика и родитеља).')}

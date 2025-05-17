@@ -24,7 +24,7 @@ export default function Footer() {
                 <div className="lg:flex justify-between items-center mt-5">
                     <div className="max-w-screen-md text-center lg:text-start">
                         <h6 className="text-primary text-xl">{t('Ваш партнер у креирању дигиталне будућности.', "footer_subtitle")}</h6>
-                        <p className="text-sm lg:text-base text-white/80 mt-2">{t('Контактирајте нас данас и сазнајте како Портал Мастер може унапредити ваше пословање.', "footer_description")}</p>
+                        <p className="text-sm lg:text-base text-white/80 mt-2">{t('Контактирајте нас данас и сазнајте како Портал Школе може унапредити ваше пословање.', "footer_description")}</p>
                         <p className="text-sm lg:text-base text-white/80">{t('Договорите бесплатну демонстрацију и уверите се зашто смо прави избор за ваш успех.', "footer_description_2")}</p>
                     </div>
                     <div className="mt-10 lg:mt-0">
@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="border-t-2 border-white/10 pt-20 mt-20">
                 <div className="w-full grid grid-cols-1 lg:grid-cols-3 items-center">
                     <div className="mb-10 lg:mb-0">
-                        <img src={logo} alt={t('Портал Мастер Лого')} className="mx-auto lg:mx-0" />
+                        <img src={logo} alt={t('Портал Школе Лого')} className="mx-auto lg:mx-0" />
                         <p className="text-white/80 mt-7 text-center lg:text-start">{t('Портал на клик од вас – лако, безбедно и ефикасно.', "footer_phrase")}</p>
                     </div>
                     <div className="text-center mb-10 lg:mb-0">
