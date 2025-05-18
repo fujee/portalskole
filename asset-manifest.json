@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portalskole/static/css/main.40ef6b9e.css",
-    "main.js": "/portalskole/static/js/main.aed29aac.js",
+    "main.js": "/portalskole/static/js/main.fafc98df.js",
     "static/js/453.5d2de9de.chunk.js": "/portalskole/static/js/453.5d2de9de.chunk.js",
     "static/media/dark_feature5.gif": "/portalskole/static/media/dark_feature5.6534d6c81a0ec4678fcd.gif",
     "static/media/feature5.gif": "/portalskole/static/media/feature5.bf7d3cca94249b3abb9c.gif",
@@ -34,11 +34,11 @@
     "static/media/administracija-dark.svg": "/portalskole/static/media/administracija-dark.224db7f8d923536bb16e633fdce4a790.svg",
     "static/media/administracija.svg": "/portalskole/static/media/administracija.5073c511bea91d4ff1ab277a05e3292b.svg",
     "main.40ef6b9e.css.map": "/portalskole/static/css/main.40ef6b9e.css.map",
-    "main.aed29aac.js.map": "/portalskole/static/js/main.aed29aac.js.map",
+    "main.fafc98df.js.map": "/portalskole/static/js/main.fafc98df.js.map",
     "453.5d2de9de.chunk.js.map": "/portalskole/static/js/453.5d2de9de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40ef6b9e.css",
-    "static/js/main.aed29aac.js"
+    "static/js/main.fafc98df.js"
   ]
 }
