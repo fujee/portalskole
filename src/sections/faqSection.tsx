@@ -115,7 +115,7 @@ export default function FaqSection() {
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/70 dark:text-white/80">{t('У оквиру цене укључени су и трошкови хостинга за све портале, чиме се елиминишу додатни оперативни издаци. Такође, корисницима који не желе да користе сопствене домене, нудимо могућност креирања поддомена за сваки појединачни портал.', "faq_a7")}</p>
+                                    <p className="mt-4 text-black/70 dark:text-white/80">{t('Сви трошкови хостинга су обухваћени ценом, без додатних издатака за одржавање. Клијентима који не располажу сопственим интернет доменом, у оквиру цене је доступна и јединствена веб адреса унутар нашег система.', "faq_a7")}</p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>

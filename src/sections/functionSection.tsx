@@ -31,8 +31,8 @@ export default function FunctionSection() {
         <div className="py-24">
             <div className="container mx-auto px-5 lg:px-0">
                 <p className="text-primary text-center font-semibold text-xl lg:text-2xl relative after:content-[''] after:absolute after:block after:h-[4px] after:w-[100px] after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:bg-primary after:rounded-xl">{t('Кључне функционалности', "func_uppertitle")}</p>
-                <h2 className="mt-10 text-2xl lg:text-4xl font-bold text-black dark:text-white text-center">{t('Нека и Ваша школа добије професионално дигитално присуство – једноставно, ефикасно и без техничких препрека.', "func_title")}</h2>
-                <p className="max-w-screen-lg mx-auto mt-5 text-center text-sm lg:text-lg text-black/90 dark:text-white/90">{t('Свака школа добија модеран, прегледан и функционалан сајт, без техничких препрека. Истакните своје вредности, пројекте и успехе, и изградите дигитално присуство које гради поверење и препознатљивост у заједници.', "func_desc")}</p>
+                <h2 className="mt-10 text-2xl lg:text-4xl font-bold text-black dark:text-white text-center">{t('Отворите врата дигиталног света – лакше него што мислите', "func_title")}</h2>
+                <p className="max-w-screen-lg mx-auto mt-5 text-center text-sm lg:text-lg text-black/90 dark:text-white/90">{t('Школа добија модеран, прегледан и функционалан сајт, без техничких препрека. Истакните своје вредности, активности, пројекте и успехе, и изградите дигитално присуство које улива поверење и препознатљивост у заједници.', "func_desc")}</p>
                 <div className="grid grid-cols-1 lg:grid-cols-8 lg:grid-rows-4 gap-6 mt-20">
                     <div className="lg:col-span-5 lg:row-span-1 border-2 rounded-xl lg:h-[440px] border-navBorder dark:border-navBorderDark bg-pureWhite bg-custom_bg1 dark:bg-pureBlack dark:bg-custom_bg1_dark p-5 lg:p-10 flex flex-col">
                         <div className="flex-grow-0">
