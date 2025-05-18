@@ -20,17 +20,16 @@ export default function Footer() {
     return <div className="bg-black dark:bg-pureBlack py-20 pb-10">
         <div className="container mx-auto">
             <div className="px-10">
-                <h3 className="text-3xl font-bold text-white text-center lg:text-start">{t('Повежите се са нама', "footer_title")}</h3>
+                <h3 className="text-3xl font-bold text-white text-center lg:text-start">{t('Постаните део Портал Мастер система', "footer_title")}</h3>
                 <div className="lg:flex justify-between items-center mt-5">
                     <div className="max-w-screen-md text-center lg:text-start">
                         <h6 className="text-primary text-xl">{t('Ваш партнер у креирању дигиталне будућности.', "footer_subtitle")}</h6>
-                        <p className="text-sm lg:text-base text-white/80 mt-2">{t('Контактирајте нас данас и сазнајте како Портал Школе може унапредити ваше пословање.', "footer_description")}</p>
-                        <p className="text-sm lg:text-base text-white/80">{t('Договорите бесплатну демонстрацију и уверите се зашто смо прави избор за ваш успех.', "footer_description_2")}</p>
+                        <p className="text-sm lg:text-base text-white/80 mt-2">{t('Ова платформа је део Портал Мастер система – свеобухватног решења за креирање и управљање савременим веб порталима. Идеалан је за све који желе модеран, функционалан и једноставан портал, без обзира на врсту делатности.', "footer_description")}</p>
                     </div>
                     <div className="mt-10 lg:mt-0">
-                        <a href="mailto:contact@portalmastersolutions.com"
+                        <a target="_blank" rel="noopener noreferrer" href="https://portalmastersolutions.rs"
                             className="flex justify-between items-center lg:block bg-primary text-white rounded-md py-2 px-6 text-base border-2 border-primary hover:bg-primary/30 max-w-sm mx-auto lg:mx-none"
-                        >{t("Контактирајте нас", "nav_contact")}<FontAwesomeIcon icon={faArrowRight} className="ms-auto lg:ms-2" /></a>
+                        >{t("Сазнајте више", "nav_contact")}<FontAwesomeIcon icon={faArrowRight} className="ms-auto lg:ms-2" /></a>
                     </div>
                 </div>
             </div>
