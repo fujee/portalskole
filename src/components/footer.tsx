@@ -15,9 +15,9 @@ export default function Footer() {
   const { t, lang } = useLang();
 
   return (
-    <div className="bg-black dark:bg-pureBlack py-20 pb-10">
-      <div className="container mx-auto">
-        <div className="border-t-2 border-white/10 pt-20 mt-20">
+    <div className="bg-black dark:bg-pureBlack py-10 lg:py-20 pb-10">
+      <div className="container mx-auto px-5 lg:px-0">
+        <div className="border-t-2 border-white/10 pt-12 mt-10 lg:pt-20 lg:mt-20">
           <div className="w-full grid grid-cols-1 lg:grid-cols-3 items-center">
             <div className="mb-10 lg:mb-0">
               <img loading="lazy" decoding="async"
@@ -42,7 +42,7 @@ export default function Footer() {
                     spy={true}
                     key={item.name}
                     duration={500}
-                    className={`text-white text-center hover:text-primary duration-100 ease-in-out cursor-pointer block my-2`}
+                    className={`text-white text-center hover:text-primary duration-100 ease-in-out cursor-pointer block py-2`}
                   >
                     {t(item.name, item.langKey)}
                   </Link>
@@ -65,7 +65,7 @@ export default function Footer() {
                 <p className="text-white/80">
                   <a
                     href="mailto:podrska@portalskole.fon.bg.ac.rs"
-                    className="text-white/80 hover:text-primary"
+                    className="text-white/80 hover:text-primary break-all"
                   >
                     podrska@portalskole.fon.bg.ac.rs
                   </a>
@@ -91,7 +91,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="pt-20 text-center">
+          <div className="pt-12 lg:pt-20 text-center">
             <p className="text-white">
               &copy; Copyright 2024,{" "}
               {t("Сва права задржана", "footer_rights")}{" "}

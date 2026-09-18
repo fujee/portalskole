@@ -8,7 +8,7 @@ export default function HeroSection() {
   const { t, lang } = useLang();
   return (
     <Element name="home">
-      <div className="min-h-screen relative">
+      <div className="min-h-screen relative flex items-center">
         <img
           src={bgImg}
           alt=""
@@ -17,7 +17,7 @@ export default function HeroSection() {
           {...{ fetchpriority: "high" }}
           className="absolute w-full h-full object-cover z-0"
         ></img>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full px-5 lg:px-0 lg:max-w-screen-lg">
+        <div className="relative w-full mx-auto px-5 pt-28 pb-16 lg:px-0 lg:py-0 lg:max-w-screen-lg">
           <div className="block border-2 border-primary bg-white/10 z-10 py-2 px-4 rounded-md text-sm lg:text-lg mt-18 lg:mt-0 text-white w-fit mx-auto">
             {t("Дигитални идентитет – по мери Ваше школе", "hero_first")}
           </div>
@@ -44,10 +44,10 @@ export default function HeroSection() {
               {t("", "hero_description_other")}
             </p>
           )}
-          <div className="flex justify-center items-center mt-20 gap-4">
+          <div className="flex flex-wrap justify-center items-center mt-12 lg:mt-20 gap-4">
             <a
               href="mailto:podrska@portalskole.fon.bg.ac.rs"
-              className="py-2 px-4 text-white bg-primary border-2 border-primary rounded-md hover:bg-primary/30 cursor-pointer ease-in-out duration-200"
+              className="whitespace-nowrap py-2 px-4 text-white bg-primary border-2 border-primary rounded-md hover:bg-primary/30 cursor-pointer ease-in-out duration-200"
             >
               {t("Започните сада", "hero_btn_1")}
             </a>
@@ -56,7 +56,7 @@ export default function HeroSection() {
               smooth={true}
               spy={true}
               duration={500}
-              className="py-2 px-4 text-white bg-transparent border-2 border-white rounded-md hover:bg-white/30 cursor-pointer ease-in-out duration-200"
+              className="whitespace-nowrap py-2 px-4 text-white bg-transparent border-2 border-white rounded-md hover:bg-white/30 cursor-pointer ease-in-out duration-200"
             >
               {t("Сазнајте више", "hero_btn_2")}{" "}
               <FontAwesomeIcon icon={faArrowRight} className="ms-2" />

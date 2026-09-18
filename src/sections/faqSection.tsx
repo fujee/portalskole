@@ -28,18 +28,18 @@ export default function FaqSection() {
             >
               <DisclosureButton
                 as="div"
-                className="w-full flex justify-between cursor-pointer group pb-2"
+                className="w-full flex justify-between gap-4 cursor-pointer group pb-2"
               >
                 <h6 className="text-lg lg:text-2xl font-semibold text-black dark:text-white">
                   {t("Шта је Портал Школе и како функционише?", "faq_q1")}
                 </h6>
                 <FontAwesomeIcon
                   icon={faPlusCircle}
-                  className="text-primary text-2xl block group-data-[open]:hidden"
+                  className="text-primary text-2xl block flex-none group-data-[open]:hidden"
                 />
                 <FontAwesomeIcon
                   icon={faMinusCircle}
-                  className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block"
+                  className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block"
                 />
               </DisclosureButton>
               <div className="overflow-hidden py-2">
@@ -63,7 +63,7 @@ export default function FaqSection() {
             >
               <DisclosureButton
                 as="div"
-                className="w-full flex justify-between cursor-pointer group pb-2"
+                className="w-full flex justify-between gap-4 cursor-pointer group pb-2"
               >
                 <h6 className="text-lg lg:text-2xl font-semibold text-black dark:text-white">
                   {t(
@@ -73,11 +73,11 @@ export default function FaqSection() {
                 </h6>
                 <FontAwesomeIcon
                   icon={faPlusCircle}
-                  className="text-primary text-2xl block group-data-[open]:hidden"
+                  className="text-primary text-2xl block flex-none group-data-[open]:hidden"
                 />
                 <FontAwesomeIcon
                   icon={faMinusCircle}
-                  className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block"
+                  className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block"
                 />
               </DisclosureButton>
               <div className="overflow-hidden py-2">
@@ -98,10 +98,10 @@ export default function FaqSection() {
             {/* <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
-                                className="w-full flex justify-between cursor-pointer group pb-2">
+                                className="w-full flex justify-between gap-4 cursor-pointer group pb-2">
                                 <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Може ли се платформа прилагодити нашим специфичним потребама?", "faq_q3")}</h6>
-                                <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
-                                <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
+                                <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block flex-none group-data-[open]:hidden" />
+                                <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block" />
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
@@ -113,10 +113,10 @@ export default function FaqSection() {
             {/* <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
-                                className="w-full flex justify-between cursor-pointer group pb-2">
+                                className="w-full flex justify-between gap-4 cursor-pointer group pb-2">
                                 <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли је могућа интеграција са постојећим системима?", "faq_q4")}</h6>
-                                <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
-                                <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
+                                <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block flex-none group-data-[open]:hidden" />
+                                <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block" />
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
@@ -131,7 +131,7 @@ export default function FaqSection() {
             >
               <DisclosureButton
                 as="div"
-                className="w-full flex justify-between cursor-pointer group pb-2"
+                className="w-full flex justify-between gap-4 cursor-pointer group pb-2"
               >
                 <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">
                   {t(
@@ -141,11 +141,11 @@ export default function FaqSection() {
                 </h6>
                 <FontAwesomeIcon
                   icon={faPlusCircle}
-                  className="text-primary text-2xl block group-data-[open]:hidden"
+                  className="text-primary text-2xl block flex-none group-data-[open]:hidden"
                 />
                 <FontAwesomeIcon
                   icon={faMinusCircle}
-                  className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block"
+                  className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block"
                 />
               </DisclosureButton>
               <div className="overflow-hidden py-2">
@@ -169,18 +169,18 @@ export default function FaqSection() {
             >
               <DisclosureButton
                 as="div"
-                className="w-full flex justify-between cursor-pointer group pb-2"
+                className="w-full flex justify-between gap-4 cursor-pointer group pb-2"
               >
                 <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">
                   {t("Ко може да уређује портал?", "faq_q5")}
                 </h6>
                 <FontAwesomeIcon
                   icon={faPlusCircle}
-                  className="text-primary text-2xl block group-data-[open]:hidden"
+                  className="text-primary text-2xl block flex-none group-data-[open]:hidden"
                 />
                 <FontAwesomeIcon
                   icon={faMinusCircle}
-                  className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block"
+                  className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block"
                 />
               </DisclosureButton>
               <div className="overflow-hidden py-2">
@@ -204,7 +204,7 @@ export default function FaqSection() {
             >
               <DisclosureButton
                 as="div"
-                className="w-full flex justify-between cursor-pointer group pb-2"
+                className="w-full flex justify-between gap-4 cursor-pointer group pb-2"
               >
                 <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">
                   {t(
@@ -214,11 +214,11 @@ export default function FaqSection() {
                 </h6>
                 <FontAwesomeIcon
                   icon={faPlusCircle}
-                  className="text-primary text-2xl block group-data-[open]:hidden"
+                  className="text-primary text-2xl block flex-none group-data-[open]:hidden"
                 />
                 <FontAwesomeIcon
                   icon={faMinusCircle}
-                  className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block"
+                  className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block"
                 />
               </DisclosureButton>
               <div className="overflow-hidden py-2">
@@ -242,7 +242,7 @@ export default function FaqSection() {
             >
               <DisclosureButton
                 as="div"
-                className="w-full flex justify-between cursor-pointer group pb-2"
+                className="w-full flex justify-between gap-4 cursor-pointer group pb-2"
               >
                 <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">
                   {t(
@@ -252,11 +252,11 @@ export default function FaqSection() {
                 </h6>
                 <FontAwesomeIcon
                   icon={faPlusCircle}
-                  className="text-primary text-2xl block group-data-[open]:hidden"
+                  className="text-primary text-2xl block flex-none group-data-[open]:hidden"
                 />
                 <FontAwesomeIcon
                   icon={faMinusCircle}
-                  className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block"
+                  className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block"
                 />
               </DisclosureButton>
               <div className="overflow-hidden py-2">
@@ -280,7 +280,7 @@ export default function FaqSection() {
             >
               <DisclosureButton
                 as="div"
-                className="w-full flex justify-between cursor-pointer group pb-2"
+                className="w-full flex justify-between gap-4 cursor-pointer group pb-2"
               >
                 <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">
                   {t(
@@ -290,11 +290,11 @@ export default function FaqSection() {
                 </h6>
                 <FontAwesomeIcon
                   icon={faPlusCircle}
-                  className="text-primary text-2xl block group-data-[open]:hidden"
+                  className="text-primary text-2xl block flex-none group-data-[open]:hidden"
                 />
                 <FontAwesomeIcon
                   icon={faMinusCircle}
-                  className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block"
+                  className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block"
                 />
               </DisclosureButton>
               <div className="overflow-hidden py-2">
@@ -318,18 +318,18 @@ export default function FaqSection() {
             >
               <DisclosureButton
                 as="div"
-                className="w-full flex justify-between cursor-pointer group pb-2"
+                className="w-full flex justify-between gap-4 cursor-pointer group pb-2"
               >
                 <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">
                   {t("Која врста подршке је доступна корисницима?", "faq_q6")}
                 </h6>
                 <FontAwesomeIcon
                   icon={faPlusCircle}
-                  className="text-primary text-2xl block group-data-[open]:hidden"
+                  className="text-primary text-2xl block flex-none group-data-[open]:hidden"
                 />
                 <FontAwesomeIcon
                   icon={faMinusCircle}
-                  className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block"
+                  className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block"
                 />
               </DisclosureButton>
               <div className="overflow-hidden py-2">
@@ -353,18 +353,18 @@ export default function FaqSection() {
             >
               <DisclosureButton
                 as="div"
-                className="w-full flex justify-between cursor-pointer group pb-2"
+                className="w-full flex justify-between gap-4 cursor-pointer group pb-2"
               >
                 <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">
                   {t("Да ли су хостинг и домени део решења?", "faq_q7")}
                 </h6>
                 <FontAwesomeIcon
                   icon={faPlusCircle}
-                  className="text-primary text-2xl block group-data-[open]:hidden"
+                  className="text-primary text-2xl block flex-none group-data-[open]:hidden"
                 />
                 <FontAwesomeIcon
                   icon={faMinusCircle}
-                  className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block"
+                  className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block"
                 />
               </DisclosureButton>
               <div className="overflow-hidden py-2">
@@ -385,18 +385,18 @@ export default function FaqSection() {
             <Disclosure as="div" className="py-5">
               <DisclosureButton
                 as="div"
-                className="w-full flex justify-between cursor-pointer group pb-2"
+                className="w-full flex justify-between gap-4 cursor-pointer group pb-2"
               >
                 <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">
                   {t("Како могу да добијем додатне информације?", "faq_q8")}
                 </h6>
                 <FontAwesomeIcon
                   icon={faPlusCircle}
-                  className="text-primary text-2xl block group-data-[open]:hidden"
+                  className="text-primary text-2xl block flex-none group-data-[open]:hidden"
                 />
                 <FontAwesomeIcon
                   icon={faMinusCircle}
-                  className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block"
+                  className="text-secondary dark:text-white text-2xl hidden flex-none group-data-[open]:block"
                 />
               </DisclosureButton>
               <div className="overflow-hidden py-2">

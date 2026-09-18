@@ -69,7 +69,7 @@ export default function FunctionSection() {
               </div>
             </div>
 
-            <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 bg-pureWhite dark:bg-pureBlack lg:col-span-3 lg:row-span-1 flex flex-col">
+            <div className="border-2 rounded-xl lg:h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 bg-pureWhite dark:bg-pureBlack lg:col-span-3 lg:row-span-1 flex flex-col">
               <div className="flex-grow-0">
                 <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">
                   {t("Ефикасна дистрибуција информација", "func_2_title")}
@@ -92,7 +92,7 @@ export default function FunctionSection() {
               </div>
             </div>
 
-            <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-pureWhite bg-custom_bg2 dark:bg-pureBlack dark:bg-custom_bg2_dark flex flex-col">
+            <div className="border-2 rounded-xl lg:h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-pureWhite bg-custom_bg2 dark:bg-pureBlack dark:bg-custom_bg2_dark flex flex-col">
               <div className="flex-grow-0">
                 <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">
                   {t("Централизовано управљање садржајем", "func_3_title")}
@@ -115,7 +115,7 @@ export default function FunctionSection() {
               </div>
             </div>
 
-            <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-pureWhite bg-custom_bg3 dark:bg-pureBlack dark:bg-custom_bg3_dark bg-no-repeat flex flex-col">
+            <div className="border-2 rounded-xl lg:h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-pureWhite bg-custom_bg3 dark:bg-pureBlack dark:bg-custom_bg3_dark bg-no-repeat flex flex-col">
               <div className="flex-grow-0">
                 <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">
                   {t("Једноставно управљање", "func_4_title")}
@@ -138,7 +138,7 @@ export default function FunctionSection() {
               </div>
             </div>
 
-            <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-3 lg:row-span-1 bg-pureWhite dark:bg-pureBlack bg-custom_bg6 dark:bg-custom_bg6_dark bg-no-repeat flex flex-col">
+            <div className="border-2 rounded-xl lg:h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-3 lg:row-span-1 bg-pureWhite dark:bg-pureBlack bg-custom_bg6 dark:bg-custom_bg6_dark bg-no-repeat flex flex-col">
               <div className="flex-grow-0">
                 <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">
                   {t("Прилагодљиве теме и шаблони", "func_5_title")}
@@ -161,7 +161,7 @@ export default function FunctionSection() {
               </div>
             </div>
 
-            <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-5 lg:row-span-1 bg-pureWhite bg-custom_bg4 dark:bg-pureBlack dark:bg-custom_bg4_dark flex flex-col">
+            <div className="border-2 rounded-xl lg:h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-5 lg:row-span-1 bg-pureWhite bg-custom_bg4 dark:bg-pureBlack dark:bg-custom_bg4_dark flex flex-col">
               <div className="flex-grow-0">
                 <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">
                   {t("Интуитивне компоненте", "func_6_title")}
@@ -184,7 +184,7 @@ export default function FunctionSection() {
               </div>
             </div>
 
-            <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-custom_bg5 dark:bg-pureBlack dark:bg-custom_bg5_dark flex flex-col">
+            <div className="border-2 rounded-xl lg:h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-custom_bg5 dark:bg-pureBlack dark:bg-custom_bg5_dark flex flex-col">
               <div className="flex-grow-0">
                 <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">
                   {t("Локализација", "func_7_title")}
@@ -206,7 +206,7 @@ export default function FunctionSection() {
                 />
               </div>
             </div>
-            <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-pureWhite dark:bg-pureBlack">
+            <div className="border-2 rounded-xl lg:h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-pureWhite dark:bg-pureBlack overflow-hidden">
               <div>
                 <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">
                   {t("Напредна претрага", "func_8_title")}
@@ -218,7 +218,7 @@ export default function FunctionSection() {
                   )}
                 </p>
               </div>
-              <div className="relative w-fit mx-auto mt-20">
+              <div className="relative w-fit mx-auto mt-20 mb-5 lg:mb-0">
                 <img
                   loading="lazy"
                   decoding="async"
@@ -235,7 +235,7 @@ export default function FunctionSection() {
                     />
                   </p>
                 </div>
-                <div className="absolute z-10 bg-primary px-4 py-2 rounded-md text-pureWhite shadow-xl -top-12 left-20 lg:left-28 ">
+                <div className="absolute z-10 bg-primary px-4 py-2 rounded-md text-pureWhite shadow-xl -top-12 left-8 lg:left-28">
                   <p className="animate-typing overflow-hidden whitespace-nowrap border-r-2 border-r-white pr-5 text-sm lg:text-base">
                     {t('ОШ "Бранислав Нушић"', "func_8_label_2")}
                   </p>
