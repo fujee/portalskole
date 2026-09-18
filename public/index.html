@@ -1,30 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr-Cyrl-RS">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+
+    <title>Портал Школе — платформа за веб портал ваше школе</title>
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Портал Школе је савремено софтверско решење које омогућава да без техничког предзнања направите, уредите и одржавате веб портал своје школе. Хостинг, домен, безбедност и надоградње су укључени."
     />
-    <meta name="robots" content="noindex"/>
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta
+      name="keywords"
+      content="портал школе, веб сајт школе, сајт за школу, портал за школе, CMS за школе, школски портал, Портал Мастер, Portal Škole, sajt za školu, CMS za škole"
+    />
+    <meta name="author" content="Факултет организационих наука" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://portalskole.rs/" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <!-- Боја интерфејса прегледача -->
+    <meta name="theme-color" content="#FF7125" />
+    <meta name="application-name" content="Портал Школе" />
+    <meta name="apple-mobile-web-app-title" content="Портал Школе" />
+
+    <!-- Иконице -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="192x192" href="%PUBLIC_URL%/seo/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="%PUBLIC_URL%/seo/icon-512.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/seo/apple-touch-icon.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Open Graph (Facebook, LinkedIn, Viber...) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Портал Школе" />
+    <meta property="og:locale" content="sr_RS" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:url" content="https://portalskole.rs/" />
+    <meta property="og:title" content="Портал Школе — платформа за веб портал ваше школе" />
+    <meta
+      property="og:description"
+      content="Направите и једноставно управљајте веб порталом своје школе — без техничког предзнања. Хостинг, домен, безбедност и надоградње су укључени."
+    />
+    <meta property="og:image" content="https://portalskole.rs/seo/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Портал Школе — портал на клик од вас" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Портал Школе — платформа за веб портал ваше школе" />
+    <meta
+      name="twitter:description"
+      content="Направите и једноставно управљајте веб порталом своје школе — без техничког предзнања."
+    />
+    <meta name="twitter:image" content="https://portalskole.rs/seo/og-image.png" />
+    <meta name="twitter:image:alt" content="Портал Школе — портал на клик од вас" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,20 +62,143 @@
       href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Портал Школе</title>
+
+    <!-- Структурирани подаци за претраживаче -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://portalskole.rs/#website",
+            "url": "https://portalskole.rs/",
+            "name": "Портал Школе",
+            "inLanguage": "sr-RS",
+            "description": "Платформа за израду и управљање веб порталима школа.",
+            "publisher": { "@id": "https://portalskole.rs/#organization" }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://portalskole.rs/#organization",
+            "name": "Портал Школе",
+            "url": "https://portalskole.rs/",
+            "logo": "https://portalskole.rs/seo/icon-square.png",
+            "image": "https://portalskole.rs/seo/og-image.png",
+            "email": "podrska@portalskole.fon.bg.ac.rs",
+            "parentOrganization": {
+              "@type": "CollegeOrUniversity",
+              "name": "Факултет организационих наука",
+              "url": "https://fon.bg.ac.rs"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer support",
+              "email": "podrska@portalskole.fon.bg.ac.rs",
+              "availableLanguage": ["sr", "en"]
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://portalskole.rs/#software",
+            "name": "Портал Школе",
+            "applicationCategory": "BusinessApplication",
+            "applicationSubCategory": "Content Management System",
+            "operatingSystem": "Web",
+            "url": "https://portalskole.rs/",
+            "screenshot": "https://portalskole.rs/seo/og-image.png",
+            "inLanguage": ["sr-Cyrl-RS", "sr-Latn-RS", "en"],
+            "description": "Портал Школе је софтверско решење за брзу израду, уређивање и одржавање веб портала школе, без техничког предзнања. Обухвата хостинг, домен, централизовану администрацију, аналитику и аутоматске надоградње.",
+            "featureList": [
+              "Израда портала без техничког предзнања",
+              "Централизовано управљање садржајем и корисницима",
+              "Укључени хостинг и домен",
+              "Аутоматске надоградње и безбедносна ажурирања",
+              "Аналитика посета и коришћења",
+              "Прилагодљиве теме и шаблони",
+              "Ћирилица, латиница и енглески"
+            ],
+            "publisher": { "@id": "https://portalskole.rs/#organization" }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://portalskole.rs/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Шта је Портал Школе и како функционише?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Наша платформа пружа јединствено решење које омогућава брзу израду персонализованих веб презентација, лако одржавање и ефикасно управљање."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Да ли је потребно техничко предзнање за коришћење платформе?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Не, Портал Школе је осмишљен тако да омогући лако управљање садржајем без техничког предзнања. Платформа нуди интуитивни интерфејс и велики избор предефинисаних страница и компоненти, што је чини једноставном за употребу."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Колико времена је потребно да школа покрене свој портал?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Активација портала траје свега неколико минута. Потпуно уређивање и унос садржаја зависи од индивидуалних потреба школе, али за креирање основног, функционалног и репрезентативног портала обично је довољно неколико сати."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Ко може да уређује портал?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Портал може уређивати више особа којима школа додели приступ. Управљање је једноставно, без потребе за техничким знањем."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Да ли је могуће пренети садржај са старог портала школе?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Наравно. Наш тим вам може помоћи у миграцији постојећих садржаја, како би прелазак на нову платформу био што једноставнији."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Да ли је могуће променити изглед портала након што је покренут?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Да, изглед и структуру портала можете прилагодити у сваком тренутку променом шаблона, додавањем или брисањем страница или компоненти, без потребе за техничком подршком."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Како се гарантује сигурност података на платформи?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Платформа обезбеђује заштиту података коришћењем најсавременијих сигурносних протокола, као што су криптовање, контрола приступа и редовно ажурирање сигурносних система. Ово осигурава висок ниво заштите и поузданости."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <h1>Портал Школе</h1>
+      <p>
+        Портал Школе је савремено софтверско решење које Вам омогућава да, без
+        техничког предзнања, направите и једноставно управљате веб порталом своје
+        школе. Хостинг, домен, безбедност и редовне надоградње су укључени.
+      </p>
+      <p>
+        За приказ целог сајта потребно је да омогућите JavaScript у свом
+        прегледачу. Контакт:
+        <a href="mailto:podrska@portalskole.fon.bg.ac.rs">podrska@portalskole.fon.bg.ac.rs</a>
+      </p>
+    </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

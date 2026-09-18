@@ -40,7 +40,7 @@ export default function FunctionSection() {
                             <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Додавање, уређивање и управљање садржајем. (Додаванје странице, садржаја на страници и приказ портала)', "func_1_desc")}</p>
                         </div>
                         <div className="flex-grow relative overflow-hidden mt-4 flex">
-                            <img src={theme === LIGHT_THEME ? feature1 : feature1Dark} alt={t("Интегрисан CRM систем", "func_1_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
+                            <img loading="lazy" decoding="async" src={theme === LIGHT_THEME ? feature1 : feature1Dark} alt={t("Интегрисан CRM систем", "func_1_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
                         </div>
                     </div>
 
@@ -50,7 +50,7 @@ export default function FunctionSection() {
                             <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Одабир тема и шаблона уз могућност прилагођавања боја, логотипа и изгледа портала. (Одабере се две различите теме, боје, иконице и прикаже се на порталу)', "func_2_desc")}</p>
                         </div>
                         <div className="flex-grow relative overflow-hidden mt-4 flex">
-                            <img src={theme === LIGHT_THEME ? feature2 : feature2Dark} alt={t("Ефикасна дистрибуција материјала", "func_2_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
+                            <img loading="lazy" decoding="async" src={theme === LIGHT_THEME ? feature2 : feature2Dark} alt={t("Ефикасна дистрибуција материјала", "func_2_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
                         </div>
                     </div>
 
@@ -60,7 +60,7 @@ export default function FunctionSection() {
                             <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Креирање страница са новостима, галеријама слика, документима и многих других, без потребе за техничким знањем. (приказ компоненти Мени, вести, галерије)', "func_3_desc")}</p>
                         </div>
                         <div className="flex-grow relative overflow-hidden mt-4 flex">
-                            <img src={theme === LIGHT_THEME ? feature3 : feature3Dark} alt={t("Централизовано одржавање садржаја", "func_3_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
+                            <img loading="lazy" decoding="async" src={theme === LIGHT_THEME ? feature3 : feature3Dark} alt={t("Централизовано одржавање садржаја", "func_3_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
                         </div>
                     </div>
 
@@ -71,7 +71,7 @@ export default function FunctionSection() {
                             <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Интегрисана подршка за више језика и аутоматско превођење између ћирилице и латинице. (приказ аутоматског превођења ћирилице у латиницу, језик на ком администратор ради, више језика на сајту)', "func_4_desc")}</p>
                         </div>
                         <div className="flex-grow relative overflow-hidden mt-4 flex">
-                            <img src={theme === LIGHT_THEME ? feature4 : feature4Dark} alt={t("Једноставно управљање", "func_4_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
+                            <img loading="lazy" decoding="async" src={theme === LIGHT_THEME ? feature4 : feature4Dark} alt={t("Једноставно управљање", "func_4_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
                         </div>
                     </div>
 
@@ -82,7 +82,7 @@ export default function FunctionSection() {
                             <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Увид у број посета, најпосећеније странице и навике корисника. Омогућава планирање садржаја на основу података. (ово не знам је ли имамо)', "func_5_desc")}</p>
                         </div>
                         <div className="flex-grow relative overflow-hidden mt-4 flex">
-                            <img src={theme === LIGHT_THEME ? feature5 : feature5Dark} alt={t("Прилагодљиве теме и шаблони", "func_5_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
+                            <img loading="lazy" decoding="async" src={theme === LIGHT_THEME ? feature5 : feature5Dark} alt={t("Прилагодљиве теме и шаблони", "func_5_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
                         </div>
                     </div>
 
@@ -92,7 +92,7 @@ export default function FunctionSection() {
                             <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Претраживање садржаја портала са једног места, уз коришћење напредних филтера као што су категорије, кључне речи или временски опсези. (Анчи је правила, да се покаже унос неке ријечи и да се прикажу резултати)', "func_6_desc")}</p>
                         </div>
                         <div className="flex-grow relative overflow-hidden mt-4 flex">
-                            <img src={theme === LIGHT_THEME ? feature6 : feature6Dark} alt={t("Интуитивне компоненте", "func_6_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
+                            <img loading="lazy" decoding="async" src={theme === LIGHT_THEME ? feature6 : feature6Dark} alt={t("Интуитивне компоненте", "func_6_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
                         </div>
                     </div>
 
@@ -102,7 +102,7 @@ export default function FunctionSection() {
                             <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Дистрибуција важних обавештења, различитих докумената и упутстава једним кликом, са могућношћу праћења ко је примио и прочитао садржај. (Не знам је ли ово остаје)', "func_7_desc")}</p>
                         </div>
                         <div className="flex-grow relative overflow-hidden mt-4 flex">
-                            <img src={theme === LIGHT_THEME ? feature7 : feature7Dark} alt={t("Локализација", "func_7_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
+                            <img loading="lazy" decoding="async" src={theme === LIGHT_THEME ? feature7 : feature7Dark} alt={t("Локализација", "func_7_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
                         </div>
                     </div>
 
@@ -112,7 +112,7 @@ export default function FunctionSection() {
                             <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Аутоматско чување претходних верзија страница и могућност враћања на ранију верзију садржаја. Корисно за исправке, ревизије и чување важних информација. (приказ коришћења верзија ако остану...)', "func_8_desc")}</p>
                         </div>
                         <div className="relative w-fit mx-auto mt-20">
-                            <img src={pretragaImg} alt={t('pretraga')} className="animate-pulse" />
+                            <img loading="lazy" decoding="async" src={pretragaImg} alt={t('pretraga')} className="animate-pulse" />
                             <div className="absolute border-2 px-4 py-1 rounded-md border-secondary bg-pureWhite -top-5 -left-5 shadow-lg text-secondary dark:bg-black dark:border-white dark:text-pureWhite">
                                 <p>{t('Претражите...', "func_8_label_1")}<FontAwesomeIcon icon={faMagnifyingGlass} className="ms-2 text-black dark:text-pureWhite" /></p>
                             </div>

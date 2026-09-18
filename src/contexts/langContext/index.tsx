@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { cirilica, Pismo, translate } from "../../utilities/pismo";
+import { applySeoMeta } from "../../utilities/seo";
 
 interface LangContextType {
     lang: Pismo;
@@ -29,6 +30,7 @@ function LanguageProvider({ children }: { children: React.ReactNode }) {
 
     useEffect(() => {
         localStorage.setItem('lang', lang);
+        applySeoMeta(lang);
     }, [lang]);
 
     return <LangContext.Provider value={{ lang, setLang, t }}>

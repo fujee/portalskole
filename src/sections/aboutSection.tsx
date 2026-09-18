@@ -29,7 +29,7 @@ export default function AboutSection() {
                 <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-20 mt-10">
                     <div className="group">
                         <div className="flex flex-col lg:flex-row justify-start lg:items-center">
-                            <img src={theme === DARK_THEME ? primenaDark : primena} alt={t('Једноставно коришћење – без потребе за техничким предзнањем', "about_f1_title")} className="me-4 w-fit group-hover:animate-wiggle" />
+                            <img loading="lazy" decoding="async" src={theme === DARK_THEME ? primenaDark : primena} alt={t('Једноставно коришћење – без потребе за техничким предзнањем', "about_f1_title")} className="me-4 w-fit group-hover:animate-wiggle" />
                             <h3 className="text-lg lg:text-2xl font-semibold text-secondary dark:text-white">{t('Једноставно коришћење – без потребе за техничким предзнањем', "about_f1_title")}</h3>
                         </div>
                         <div className="mt-5">
@@ -47,7 +47,7 @@ export default function AboutSection() {
                     </div>
                     <div className="group">
                         <div className="flex flex-col lg:flex-row justify-start lg:items-center">
-                            <img src={theme === DARK_THEME ? iskustvoDark : iskustvo} alt={t('Све на једном месту – без скривених трошкова', "about_f2_title")} className="me-4 w-fit group-hover:animate-wiggle" />
+                            <img loading="lazy" decoding="async" src={theme === DARK_THEME ? iskustvoDark : iskustvo} alt={t('Све на једном месту – без скривених трошкова', "about_f2_title")} className="me-4 w-fit group-hover:animate-wiggle" />
                             <h3 className="text-lg lg:text-2xl font-semibold text-secondary dark:text-white">{t('Све на једном месту – без скривених трошкова', "about_f2_title")}</h3>
                         </div>
                         <div className="mt-5">
@@ -65,7 +65,7 @@ export default function AboutSection() {
                     </div>
                     <div className="group">
                         <div className="flex flex-col lg:flex-row justify-start lg:items-center">
-                            <img src={theme === DARK_THEME ? securityDark : security} alt={t('Јединствен изглед и висок квалитет – у складу са стандардима', "about_f3_title")} className="me-4 w-fit group-hover:animate-wiggle" />
+                            <img loading="lazy" decoding="async" src={theme === DARK_THEME ? securityDark : security} alt={t('Јединствен изглед и висок квалитет – у складу са стандардима', "about_f3_title")} className="me-4 w-fit group-hover:animate-wiggle" />
                             <h3 className="text-lg lg:text-2xl font-semibold text-secondary dark:text-white">{t('Јединствен изглед и висок квалитет – у складу са стандардима', "about_f3_title")}</h3>
                         </div>
                         <div className="mt-5">
@@ -83,7 +83,7 @@ export default function AboutSection() {
                     </div>
                     <div className="group">
                         <div className="flex flex-col lg:flex-row justify-start lg:items-center">
-                            <img src={theme === DARK_THEME ? administracijaDark : administracija} alt={t('Сигурност на првом месту', "about_f4_title")} className="me-4 w-fit group-hover:animate-wiggle" />
+                            <img loading="lazy" decoding="async" src={theme === DARK_THEME ? administracijaDark : administracija} alt={t('Сигурност на првом месту', "about_f4_title")} className="me-4 w-fit group-hover:animate-wiggle" />
                             <h3 className="text-lg lg:text-2xl font-semibold text-secondary dark:text-white">{t('Сигурност на првом месту', "about_f4_title")}</h3>
                         </div>
                         <div className="mt-5">
