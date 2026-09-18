@@ -45,7 +45,7 @@ export default function HeroSection() {
           )}
           <div className="flex justify-center items-center mt-20 gap-4">
             <a
-              href="mailto:contact@portalmastersolutions.com"
+              href="mailto:podrska@portalskole.fon.bg.ac.rs"
               className="py-2 px-4 text-white bg-primary border-2 border-primary rounded-md hover:bg-primary/30 cursor-pointer ease-in-out duration-200"
             >
               {t("Започните сада", "hero_btn_1")}

@@ -21,7 +21,7 @@ export default function ToldSection() {
                     <div className="w-full grid grid-cols-1 lg:grid-cols-2 mt-20">
                         <div className="px-8 lg:px-24 border-black/30 border-b-2 pb-10 mb-10 lg:border-b-0 lg:border-r-2 lg:mb-0 lg:pb-0">
                             <img loading="lazy" decoding="async" src={theme === DARK_THEME ? fonLogoDark : fonLogo} alt={t('Факултет организационих наука')} className="mb-10" />
-                            <p className="text-black dark:text-white">“<em>Portal Master Solutions</em>{t(" је потпуно променио начин на који управљамо нашим школским порталом. Све је постало једноставније и сигурније, а подршка тима је изванредна.”")}</p>
+                            <p className="text-black dark:text-white">“<em>{t("Портал Школе")}</em>{t(" је потпуно променио начин на који управљамо нашим школским порталом. Све је постало једноставније и сигурније, а подршка тима је изванредна.”")}</p>
                             <div className="flex justify-start items-center mt-10">
                                 <div className="w-[64px] h-[64px] overflow-hidden rounded-full flex-none">
                                     <img loading="lazy" decoding="async" src={mare} alt={t('Миодраг Јовановић')} className="w-full h-auto object-cover" />
