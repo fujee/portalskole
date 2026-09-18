@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e02c3bee.css",
-    "main.js": "/static/js/main.2f3eff6e.js",
+    "main.css": "/static/css/main.2de0a6e8.css",
+    "main.js": "/static/js/main.ac98e7b6.js",
     "static/js/453.b979c46a.chunk.js": "/static/js/453.b979c46a.chunk.js",
     "static/media/dark_feature5.gif": "/static/media/dark_feature5.6534d6c81a0ec4678fcd.gif",
     "static/media/feature5.gif": "/static/media/feature5.bf7d3cca94249b3abb9c.gif",
@@ -37,12 +37,12 @@
     "static/media/iskustvo.svg": "/static/media/iskustvo.e92d6740b15fe92467bc865561dc70ec.svg",
     "static/media/administracija-dark.svg": "/static/media/administracija-dark.1215bfa39315d4d73407d2ecb0e3bb2d.svg",
     "static/media/administracija.svg": "/static/media/administracija.6f3c31b049e580545021fe246a06d524.svg",
-    "main.e02c3bee.css.map": "/static/css/main.e02c3bee.css.map",
-    "main.2f3eff6e.js.map": "/static/js/main.2f3eff6e.js.map",
+    "main.2de0a6e8.css.map": "/static/css/main.2de0a6e8.css.map",
+    "main.ac98e7b6.js.map": "/static/js/main.ac98e7b6.js.map",
     "453.b979c46a.chunk.js.map": "/static/js/453.b979c46a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e02c3bee.css",
-    "static/js/main.2f3eff6e.js"
+    "static/css/main.2de0a6e8.css",
+    "static/js/main.ac98e7b6.js"
   ]
 }
