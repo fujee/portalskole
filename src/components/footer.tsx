@@ -1,13 +1,11 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useLang } from "../contexts/langContext";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import logo from "../media/logo.svg";
 import routes from "../utilities/routes";
 import { Link } from "react-scroll";
 
 // import facebook from "../media/contact/facebook.svg";
 // import instagram from "../media/contact/instagram.svg";
-import linkedin from "../media/contact/linkedin.svg";
+// import linkedin from "../media/contact/linkedin.svg";
 
 import fonLogo from "../media/fon.png";
 import fonLogoLat from "../media/fon_lat.png";

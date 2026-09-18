@@ -13,7 +13,8 @@ export default function HeroSection() {
           src={bgImg}
           alt=""
           aria-hidden="true"
-          fetchPriority="high"
+          // React 18 не познаје fetchPriority, па атрибут прослеђујемо малим словима
+          {...{ fetchpriority: "high" }}
           className="absolute w-full h-full object-cover z-0"
         ></img>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full px-5 lg:px-0 lg:max-w-screen-lg">
